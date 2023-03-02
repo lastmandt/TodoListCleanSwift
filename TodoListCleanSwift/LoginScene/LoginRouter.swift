@@ -21,7 +21,7 @@ class LoginRouter: NSObject, ILoginRouter {
 
 	// MARK: - Public
 
-	/// Метод для перехода на экран TodoList
+	/// Метод для перехода на экран TodoList 
 	func routeToTodoList(segue: UIStoryboardSegue?) {
 		let destinationVC = viewController?.storyboard?.instantiateViewController(
 			withIdentifier: "TodoListViewController") as! TodoListViewController
